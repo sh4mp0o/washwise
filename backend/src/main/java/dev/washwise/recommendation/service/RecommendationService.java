@@ -4,7 +4,6 @@ import dev.washwise.recommendation.engine.WashRecommendation;
 import dev.washwise.recommendation.engine.WashRecommendationEngine;
 import dev.washwise.recommendation.engine.WeatherConditions;
 import dev.washwise.recommendation.model.CurrentRecommendationResponse;
-import dev.washwise.recommendation.model.RecommendationLevel;
 import org.springframework.stereotype.Service;
 
 @Service
