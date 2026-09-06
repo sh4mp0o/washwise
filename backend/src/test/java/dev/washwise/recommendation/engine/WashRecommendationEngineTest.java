@@ -1,6 +1,7 @@
 package dev.washwise.recommendation.engine;
 
 import dev.washwise.recommendation.model.RecommendationLevel;
+import dev.washwise.weather.model.WeatherConditions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

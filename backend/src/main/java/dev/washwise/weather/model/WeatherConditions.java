@@ -1,4 +1,4 @@
-package dev.washwise.recommendation.engine;
+package dev.washwise.weather.model;
 
 public record WeatherConditions(
         int precipitationProbability,

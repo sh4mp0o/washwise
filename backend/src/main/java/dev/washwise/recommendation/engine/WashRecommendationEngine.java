@@ -1,6 +1,7 @@
 package dev.washwise.recommendation.engine;
 
 import dev.washwise.recommendation.model.RecommendationLevel;
+import dev.washwise.weather.model.WeatherConditions;
 import org.springframework.stereotype.Component;
 
 @Component
