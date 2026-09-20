@@ -4,9 +4,18 @@ import dev.washwise.recommendation.model.RecommendationLevel;
 import dev.washwise.weather.model.WeatherConditions;
 import org.springframework.stereotype.Component;
 
+/**
+ * Рассчитывает рекомендацию по мойке автомобиля на основании погодных условий
+ */
 @Component
 public class WashRecommendationEngine {
 
+    /**
+     * Рассчитывает оценку условий и итоговый уровень рекомендации
+     *
+     * @param conditions погодные условия для расчёта
+     * @return рассчитанная рекомендация
+     */
     public WashRecommendation calculate(WeatherConditions conditions) {
         int score = 100;
 
